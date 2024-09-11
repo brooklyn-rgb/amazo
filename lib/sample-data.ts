@@ -1,4 +1,20 @@
+import { hashSync } from 'bcrypt-ts-edge'
+
 const sampleData ={
+  users: [
+    {
+      name: 'John',
+      email: 'admin@example.com',
+      password: hashSync('123456', 10),
+      role: 'admin',
+    },
+    {
+      name: 'Jane',
+      email: 'jane@example.com',
+      password: hashSync('123456', 10),
+      role: 'user',
+    },
+  ],
     products: [
         {
             name: 'CANON EOS 2000D with 18-55mm f/3.5-5.6 III Lens ',
@@ -27,7 +43,8 @@ const sampleData ={
             stock: 9,
             description:
               'The Canon EOS 4000D starter kit is an affordable, entry-level DSLR that combines good image quality and a wide range of practical and easy to use features. The camera features a large 18MP APS-C CMOS sensor with good low light performance, a feature guide for users new to photography, Full HD video recording, as well as Wi-Fi connectivity to enable quick media sharing.',
-            
+              isFeatured: true,
+              banner: '/assets/images/banner-2.jpeg',
           },
           {
             name: 'Sony HXR-NX3 NXCAM Professional Camcorder',
