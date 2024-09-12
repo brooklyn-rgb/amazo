@@ -95,9 +95,9 @@ export async function getAllProducts({
   // 100-200
   const priceFilter =
     price && price !== 'all'
-      ? sql`${products.price} >= ${price.split('-')[0]} AND ${
+      ? sql`${products.price} >= R {price.split('-')[0]} AND ${
           products.price
-        } <= ${price.split('-')[1]}`
+        } <= R {price.split('-')[1]}`
       : undefined
   const order =
     sort === 'lowest'

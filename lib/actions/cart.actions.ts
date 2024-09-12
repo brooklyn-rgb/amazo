@@ -45,7 +45,7 @@ export const addItemToCart = async (data: CartItem) => {
         sessionCartId: sessionCartId,
         ...calcPrice([item]),
       })
-      revalidatePath(`/product/${product.slug}`)
+      revalidatePath(`/product/R{product.slug}`)
       return {
         success: true,
         message: 'Item added to cart successfully',
