@@ -1,7 +1,7 @@
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Brooklyn Store'
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Amazona'
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
-  'Camera Store all your photograph gear supply in South Africa at Brooklyn Store'
+  'An Amazon clone built with Next.js, Postgres, Shadcn'
 
 export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'onboarding@resend.dev'
 
@@ -57,4 +57,3 @@ export const reviewFormDefaultValues = {
   comment: '',
   rating: 0,
 }
- 
