@@ -67,7 +67,7 @@ export async function createUpdateReview(
         .where(eq(products.id, review.productId))
     })
 
-    revalidatePath(`/product/${product.slug}`)
+    revalidatePath(`/product/R {product.slug}`)
     return {
       success: true,
       message: 'Review updated successfully',
