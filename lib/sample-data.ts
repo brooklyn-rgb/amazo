@@ -3,9 +3,9 @@ import { hashSync } from 'bcrypt-ts-edge'
 const sampleData ={
   users: [
     {
-      name: 'John',
-      email: 'admin@example.com',
-      password: hashSync('123456', 10),
+      name: 'Mac',
+      email: 'oflenstek@gmail.com',
+      password: hashSync('9102', 10),
       role: 'admin',
     },
     {
@@ -28,7 +28,7 @@ const sampleData ={
             stock: 9,
             description:
               '24.1 Megapixel CMOS (APS-C) Sensor with ISO 100-6400 (H: 12800) 3.0-inch LCD monitor DIGIC 4+ Image Processor 9-point autofocus and AI Servo AF Full HD 1080p video recording at 30 fps Built-in Wi-Fi & NFC Capability.',
-            isFeatured: true,
+            isFeatured: false,
             banner: '/assets/images/banner-1.jpeg',
           },
           {
@@ -43,7 +43,7 @@ const sampleData ={
             stock: 9,
             description:
               'The Canon EOS 4000D starter kit is an affordable, entry-level DSLR that combines good image quality and a wide range of practical and easy to use features. The camera features a large 18MP APS-C CMOS sensor with good low light performance, a feature guide for users new to photography, Full HD video recording, as well as Wi-Fi connectivity to enable quick media sharing.',
-              isFeatured: true,
+              isFeatured: false,
               banner: '/assets/images/banner-2.jpeg',
           },
           {

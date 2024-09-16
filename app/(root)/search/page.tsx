@@ -8,15 +8,15 @@ import Link from 'next/link'
 const sortOrders = ['newest', 'lowest', 'highest', 'rating']
 const prices = [
   {
-    name: '$1 to $100',
+    name: 'R1 to R100',
     value: '1-100',
   },
   {
-    name: '$101 to $200',
+    name: 'R101 to R200',
     value: '101-200',
   },
   {
-    name: '$201 to $1000',
+    name: 'R201 to R1000',
     value: '201-1000',
   },
 ]
@@ -44,7 +44,7 @@ export async function generateMetadata({
     return {
       title: `Search ${q !== 'all' ? q : ''}
                  ${category !== 'all' ? ` : Category ${category}` : ''}
-                 ${price !== 'all' ? ` : Price ${price}` : ''}
+                 ${price !== 'all' ? ` : Price R{price}` : ''}
                  ${
                    rating !== 'all' ? ` : Rating ${rating}` : ''
                  } - ${APP_NAME}`,

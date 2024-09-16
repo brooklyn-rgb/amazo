@@ -1,5 +1,5 @@
 'use client';
-
+import React from 'react';
 import Category from './Category';
 import BrooklynStore from './BrooklynStore';
 import Schedule from './Schedule';
@@ -13,8 +13,7 @@ const Footer = () => {
         <Policies />        
         <Category />
         <Schedule />
-      </div>
-      
+      </div>         
     </footer>
   );
 };

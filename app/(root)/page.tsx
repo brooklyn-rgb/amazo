@@ -10,6 +10,7 @@ import {
 export default async function Home() {
   const latestProducts = await getLatestProducts()
   const featuredProducts = await getFeaturedProducts()
+ 
   return (
     <div>
       {featuredProducts.length > 0 && (
@@ -18,7 +19,7 @@ export default async function Home() {
       <div className="space-y-8">
         <ProductList title="Newest Arrivals" data={latestProducts} />
         <ProductPromotion />
-        <EcommerceFeatures />
+        <EcommerceFeatures />           
       </div>
     </div>
   )

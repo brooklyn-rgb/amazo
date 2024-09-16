@@ -191,7 +191,7 @@ export default function OrderDetailsForm({
                     <TableRow key={item.slug}>
                       <TableCell>
                         <Link
-                          href={`/product/${item.slug}`}
+                          href={`/product/ZAR {item.slug}`}
                           className="flex items-center"
                         >
                           <Image
@@ -207,7 +207,7 @@ export default function OrderDetailsForm({
                         <span className="px-2">{item.qty}</span>
                       </TableCell>
                       <TableCell className="text-right">
-                        ${item.price}
+                        ZAR {item.price}
                       </TableCell>
                     </TableRow>
                   ))}

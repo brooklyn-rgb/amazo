@@ -26,7 +26,7 @@ const OrderDetailsPage = async ({
 
     const paymentIntent = await stripe.paymentIntents.create({
       amount: Math.round(Number(order.totalPrice) * 100),
-      currency: 'USD',
+      currency: 'ZAR',
       metadata: { orderId: order.id },
     })
     client_secret = paymentIntent.client_secret

@@ -1,6 +1,7 @@
 import Footer from '@/components/shared/footer'
 import Header from '@/components/shared/header'
 import React from 'react'
+import Demo from './pages/demo/page'
 
 export default function RootLayout({
   children,
@@ -14,6 +15,7 @@ export default function RootLayout({
       <Header />
       <main className="flex-1 wrapper">{children}</main>
       {modal}
+      <Demo />
       <Footer />
     </div>
   )

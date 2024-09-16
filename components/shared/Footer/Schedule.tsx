@@ -22,7 +22,7 @@ const Schedule = () => {
             <span className="pl-3 text-yellow-400 font-medium">Closed</span>
           </li>
           <li className="mb-2 py-4 font-extrabold">
-            Tel: +27 78 151 5716
+            Tel: <span className='text-blue font-extrabold'>+27 78 151 5716</span>
             <span className="pl-3 text-yellow-400 font-medium">Call Green</span>
           </li>
           <li className="mb-2 py-4 font-extrabold">
