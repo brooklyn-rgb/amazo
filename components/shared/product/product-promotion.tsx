@@ -1,6 +1,5 @@
 'use client'
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -71,12 +70,16 @@ const ProductPromotion = () => {
       </div>
 
       <div className=" flex justify-center">
-        <Image
-          alt="promotion"
-          width={300}
-          height={200}
-          src="/assets/images/p1-1.jpeg"
-        />
+      <video width="320" height="240" controls preload="none" loop autoPlay muted>
+      <source src="/cam.mp4" type="video/mp4" />
+      <track
+        src="/cam.mp4"
+        kind="Brooklyn Store"
+        srcLang="en"
+        label="Camera-store"       
+      />
+      Your browser does not support the video tag.
+    </video>
       </div>
     </section>
   )
