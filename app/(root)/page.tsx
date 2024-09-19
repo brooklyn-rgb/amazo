@@ -6,10 +6,13 @@ import {
   getFeaturedProducts,
   getLatestProducts,
 } from '@/lib/actions/product.actions'
+import { cookies } from 'next/headers'
 
 export default async function Home() {
   const latestProducts = await getLatestProducts()
   const featuredProducts = await getFeaturedProducts()
+  const cookieStore = cookies()
+  const theme = cookieStore.get('theme')
  
   return (
     <div>
