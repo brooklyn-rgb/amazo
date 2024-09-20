@@ -11,7 +11,7 @@ const Category = () => {
         <ul className="lg:mt-10 mt-4 text-sm md:text-base w-auto">
           <Link
             href={{
-              pathname: '/search',
+              pathname: '/canon',
               query: {
                 category: 'canon',
               },
@@ -24,7 +24,7 @@ const Category = () => {
 
           <Link
             href={{
-              pathname: '/search',
+              pathname: '/nikon',
               query: {
                 category: 'nikon',
               },
@@ -37,7 +37,7 @@ const Category = () => {
 
           <Link
             href={{
-              pathname: '/search',
+              pathname: '/sony',
               query: {
                 category: 'sony',
               },
@@ -50,7 +50,7 @@ const Category = () => {
 
           <Link
             href={{
-              pathname: '/search',
+              pathname: '/godox',
               query: {
                 category: 'godox',
               },
@@ -63,9 +63,9 @@ const Category = () => {
 
           <Link
             href={{
-              pathname: '/search',
+              pathname: '/fiji',
               query: {
-                category: 'phillips',
+                category: 'fiji',
               },
             }}
           >

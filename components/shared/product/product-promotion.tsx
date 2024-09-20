@@ -62,7 +62,7 @@ const ProductPromotion = () => {
           <StatBox label="Minutes" value={time.minutes} />
           <StatBox label="Seconds" value={time.seconds} />
         </ul>
-        <div className="text-center">
+        <div className="text-center py-8">
           <Button asChild>
             <Link href="/search">View products</Link>
           </Button>
@@ -80,7 +80,8 @@ const ProductPromotion = () => {
       />
       Your browser does not support the video tag.
     </video>
-      </div>
+    
+    </div>
     </section>
   )
 }
