@@ -1,3 +1,4 @@
+import Category from '@/components/shared/Footer/Category'
 import EcommerceFeatures from '@/components/shared/product/ecommerce-features'
 import ProductCard from '@/components/shared/product/product-card'
 import ProductCarousel from '@/components/shared/product/product-carousel'
@@ -9,6 +10,8 @@ import {
   getLatestProducts,
 } from '@/lib/actions/product.actions'
 import { cookies } from 'next/headers'
+import AdminProductsPage from '../admin/products/page'
+import { products } from '@/db/schema'
 
 export default async function Home() {
   const latestProducts = await getLatestProducts()

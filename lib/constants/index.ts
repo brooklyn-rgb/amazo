@@ -35,6 +35,7 @@ export const shippingAddressDefaultValues = {
   city: '',
   postalCode: '',
   country: '',
+  phone: '',
 }
 
 export const productDefaultValues = {
@@ -50,6 +51,7 @@ export const productDefaultValues = {
   numReviews: 0,
   isFeatured: false,
   banner: null,
+  sku: '',
 }
 
 export const reviewFormDefaultValues = {

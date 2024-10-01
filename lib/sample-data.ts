@@ -30,6 +30,7 @@ const sampleData ={
               '24.1 Megapixel CMOS (APS-C) Sensor with ISO 100-6400 (H: 12800) 3.0-inch LCD monitor DIGIC 4+ Image Processor 9-point autofocus and AI Servo AF Full HD 1080p video recording at 30 fps Built-in Wi-Fi & NFC Capability.',
             isFeatured: false,
             banner: '/assets/images/banner-1.jpeg',
+            sku: 'SN0055060',
           },
           {
             name: 'CANON EOS 4000D with 18-55mm Lens ',
@@ -45,6 +46,7 @@ const sampleData ={
               'The Canon EOS 4000D starter kit is an affordable, entry-level DSLR that combines good image quality and a wide range of practical and easy to use features. The camera features a large 18MP APS-C CMOS sensor with good low light performance, a feature guide for users new to photography, Full HD video recording, as well as Wi-Fi connectivity to enable quick media sharing.',
               isFeatured: false,
               banner: '/assets/images/banner-2.jpeg',
+            sku: 'SN0055061',
           },
           {
             name: 'Sony HXR-NX3 NXCAM Professional Camcorder',
@@ -58,6 +60,7 @@ const sampleData ={
             stock: 9,
             description:
               'A multi-purpose professional camcorder offering exceptional image quality and three Full HD sensors ready to maximise your creative potential.',
+            sku: 'SN551107AA',
             
           },
           {
@@ -72,7 +75,7 @@ const sampleData ={
             stock: 9,
             description:
               'The canon 77D is a 24 megapixel Canon Machine with powerful pictures and videos resolution that gives you best quality of pictures and videos.the FlipScreen and microphone input make your shoot very easier.',
-            
+            sku: 'SN0055062',
           },
           {
             name: 'Sony A7 Mark III + 28-70mm Lens',
@@ -86,7 +89,7 @@ const sampleData ={
             stock: 9,
             description:
               'Specifications & Features Phenomenal AF performance and 10 fps continuous shooting Full-frame 4K HDR movie recording and pro-class movie features Newly developed 24.2MP 35mm full-frame Exmor R CMOS sensor and enhanced image processing Sensitivity range up to ISO 51200 (expandable to ISO 50-204800 for stills) Fast Hybrid AF with 693 phase-detection and 425 contrast-detection AF points. High-speed continuous shooting of up to 10 fps 1 with AF/AE tracking.',
-            
+            sku: 'SN9900498A',
           },
           {
             name: 'Nikon D5300 Digital SLR with 18-55mm VR Lens',
@@ -100,7 +103,7 @@ const sampleData ={
             stock: 9,
             description:
               'Specifications: Brand Nikon Model Name Nikon D5300 Mounting Type	Bayonet Video Capture Format MPEG-4, AVC Color	Black Form Factor	Compact Connectivity Technology	USB, HDMI Photo Sensor Technology	CMOS.',
-            
+            sku: 'SN88441100',
           },
           {
             name: 'Canon 200D with 18-55mm STM Lens',
@@ -114,7 +117,7 @@ const sampleData ={
             stock: 9,
             description:
               'Specifications: 24.2MP APS-C CMOS Sensor DIGIC 7 Image Processor 3" 1.04m-Dot Vari-Angle Touchscreen LCD Full HD 1080p Video Recording at 60 fps 9-Point AF System; Dual Pixel CMOS AF Native ISO 25600, Extended to ISO 51200 Up to 5 fps Continuous Shooting Feature Assistant; Microphone Input Built-In Wi-Fi with NFC and Bluetooth EF-S 18-55mm f/4-5.6 IS STM Lens',
-            
+            sku: 'SN0055064',
           },
           {
             name: 'Canon LPE-6NH Battery',
@@ -128,7 +131,7 @@ const sampleData ={
             stock: 9,
             description:
               'The Canon LP-E6NH battery pack was designed for Canon&nbsp;s DSLR Camera bodies and packs a ton of power. Power your EOS DSLR Camera with this Canon LP-E6NH li ion battery. It is compatible with the LC-E6 and LC-E6E chargers. Compatible Cameras EOS 7D Mark II EOS 7D EOS 5D Mark III EOS 5D Mark II EOS 60D EOS 60Da EOS 70D EOS 6D.',
-            
+            sku: 'SN0055065',
           },
           {
             name: 'PVC 3x6m White Vinyl Backdrop with 50mm Aluminium Crossbar',
@@ -142,7 +145,7 @@ const sampleData ={
             stock: 9,
             description:
               'Specifications: Material: Polyvinyl Chloride (PVC) Dual-sided: White and Black Dimensions: 3.2x6m Weight: 12kg Core: Aluminium Crossbar Thickness: 50mm Crossbar Length: 340cm Crossbar Holes Diameter: 15mm Finish: Matte',
-            
+            sku: 'SNAO11B580',
           },
           {
             name: 'Canon 90D with 18-135mm Lens',
@@ -156,7 +159,7 @@ const sampleData ={
             stock: 9,
             description:
               ' 32.5MP APS-C CMOS Sensor: Canon EOS 90D + 18-135mm IS USM Lens, the EOS 90D is ideal for sports and wildlife photography and a fast DSLR camera that takes you closer! (Refurbished)',
-            
+            sku: 'SN0055065',
           },
           {
             name: 'Canon EOS 5D Mark IV + 24-105mm Lens DSLR',
@@ -170,7 +173,7 @@ const sampleData ={
             stock: 9,
             description:
               'Canon EOS 5D Mark IV + EF 24-105mm f4 L IS USM II DSLR camera. The EOS 5D Mark IV 24-105mm camera builds on the powerful legacy of the 5D series, offering amazing refinements in image quality, performance, and versatility. Focus accuracy has been improved with a refined 61-point AF system and Canon&nbsp;s revolutionary Dual Pixel CMOS AF for quick, smooth AF for both video and Live View shooting (Refurbished).',
-            
+              sku: 'SN0055066',
           },
           {
             name: 'Godox MS200-F Double Strobe Studio Light Kit',
@@ -184,7 +187,7 @@ const sampleData ={
             stock: 8,
             description:
               'Godox MS200-F Double Studio Strobe Monolight Kit. In the Godox MS200-F Double Studio Strobe Monolight Kit studio kit, you get all the gear you need to start your own home studio lighting set up. The MS-series studio strobes are lightweight, compact, and durable studio flashes with a variety of useful features. This particular MS-200 model has a Guide Number of GN53, variable power from 1/32 to full power, with 50-steps of adjustable output and a 150W halogen modeling lamp. Furthermore, the MS-200 makes use of the Godox X-system; making it directly compatible with all of the Godox X Flash Triggers.',
-            
+            sku: 'SN11440089',
           },
 
     ]
