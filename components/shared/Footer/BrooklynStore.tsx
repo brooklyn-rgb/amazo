@@ -14,7 +14,7 @@ const BrooklynStore = () => {
         </p>
 
         <p className="lg:mt-10 mt-4 text-sm md:text-base font-semibold">
-          <Link href={'/pages/contact/page'}>
+          <Link href={'/Footer/Contact'}>
           Contact Us
           </Link>
         </p>
