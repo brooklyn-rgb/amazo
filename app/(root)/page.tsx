@@ -12,6 +12,8 @@ import {
 import { cookies } from 'next/headers'
 import AdminProductsPage from '../admin/products/page'
 import { products } from '@/db/schema'
+import Demo2 from './pages/demo2/page'
+import Banner2 from './pages/banner2/page'
 
 export default async function Home() {
   const latestProducts = await getLatestProducts()
@@ -20,12 +22,14 @@ export default async function Home() {
   const theme = cookieStore.get('theme')
  
   return (
-    <div>     
+    <div> 
+      <Banner2 />    
       {featuredProducts.length > 0 && (
         <ProductCarousel data={featuredProducts} />
       )}
       <div className="space-y-8">
         <ProductList title="Newest Arrivals" data={latestProducts} />
+        <Demo2 />
         <ProductPromotion />
         <ProductList title="Camera Gear Collection" data={latestProducts} />        
         <EcommerceFeatures />           
