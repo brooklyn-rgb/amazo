@@ -3,7 +3,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FiPhoneCall } from 'react-icons/fi';
 import { FaWhatsapp } from "react-icons/fa";
 
-const DeepBazar = () => {
+const BrooklynStore = () => {
   return (
     <div className="flex-grow lg:pt-4 w-2/4 sm:w-[30%] md:w-1/4">
       <div className="w-full">
@@ -14,7 +14,9 @@ const DeepBazar = () => {
         </p>
 
         <p className="lg:mt-10 mt-4 text-sm md:text-base font-semibold">
+          <Link href={'/pages/contact/page'}>
           Contact Us
+          </Link>
         </p>
         <button className="mt-3 text-sm md:text-base flex items-center space-x-2">
           <FiPhoneCall className="text-white" /> <span>+27 78 151 5716</span>
@@ -43,7 +45,7 @@ const DeepBazar = () => {
             />
           </div> */}
           <p className="mt-[4px] font-bold underline text-sm md:text-base cursor-pointer">
-            Developed by <a href="https://mac-soft.vercel.app/"> Mac </a>
+            Dev by <a href="https://macsoft.co.za/"> macsoft </a>
           </p>
         </div>
       </div>
@@ -51,4 +53,4 @@ const DeepBazar = () => {
   );
 };
 
-export default DeepBazar;
+export default BrooklynStore;
