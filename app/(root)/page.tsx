@@ -20,15 +20,14 @@ export default async function Home() {
   const theme = cookieStore.get('theme')
  
   return (
-    <div>
+    <div>     
       {featuredProducts.length > 0 && (
         <ProductCarousel data={featuredProducts} />
       )}
       <div className="space-y-8">
         <ProductList title="Newest Arrivals" data={latestProducts} />
-        <ProductList title="Camera Gear Collection" data={latestProducts} />
         <ProductPromotion />
-        <ProductList title="Amazing Views" data={latestProducts} />
+        <ProductList title="Camera Gear Collection" data={latestProducts} />        
         <EcommerceFeatures />           
       </div>
     </div>

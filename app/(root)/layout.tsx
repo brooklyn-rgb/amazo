@@ -2,6 +2,8 @@ import Footer from '@/components/shared/footer'
 import Header from '@/components/shared/header'
 import React from 'react'
 import Demo from './pages/demo/page'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import Chat from '../chat/page'
 
 export default function RootLayout({
   children,
@@ -17,6 +19,7 @@ export default function RootLayout({
       {modal}
       <Demo />
       <Footer />
+      <Chat />
     </div>
   )
 }
