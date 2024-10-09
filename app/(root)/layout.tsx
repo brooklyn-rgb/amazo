@@ -28,6 +28,29 @@ export default function RootLayout({
       <meta charSet="utf-8"/>
    <meta name="google-site-verification" content="gJrTicPSMMeCxt6Tk_4ks1OPVITCp239OSiIpXGRR2g"/>
     <meta name="robots" content="index,follow"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <link href="https://brooklynstore.co.za/" rel="canonical"/>
+         <link rel="apple-touch-icon" href="/static/images/favicon.ico"/>
+    <link rel="icon" href="/static/images/favicon.ico"/>
+    <link rel="preconnect" href="//cdnjs.cloudflare.com"/>
+    <link rel="preconnect" href="//cdn.jsdelivr.net"/>
+    <link rel="preconnect" href="//www.googletagmanager.com"/>
+    <link rel="preconnect" href="//www.googleadservices.com"/>
+    <link rel="preconnect" href="//fonts.gstatic.com"/>
+    <link rel="preconnect" href="//connect.facebook.net"/>
+    <link rel="dns-prefetch" href="//api-iam.intercom.io"/>
+    <link rel="dns-prefetch" href="//js.intercomcdn.com"/>
+    <link rel="dns-prefetch" href="//widget.intercom.io"/>
+    <link rel="dns-prefetch" href="//px.ads.linkedin.com"/>
+    <link rel="dns-prefetch" href="//www.linkedin.com"/>
+    <link rel="dns-prefetch" href="//www.google.com"/>
+    <link rel="dns-prefetch" href="//www.google.co.za"/>
+    <link rel="dns-prefetch" href="//stats.g.doubleclick.net"/>
+    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net"/>
+    <link rel="dns-prefetch" href="//www.facebook.com"/>
+    <link rel="dns-prefetch" href="//snap.licdn.com"/>
+    <link rel="dns-prefetch" href="//p.adsymptotic.com"/>
+    <link rel="dns-prefetch" href="//widget.apexvisibility.co"/>
     </head>
     <div className="flex h-screen flex-col">
         <Announcement />
