@@ -27,7 +27,7 @@ const Schedule = () => {
           </li>
           <li className="mb-2 py-4 font-extrabold">
             <Link href='https://maps.app.goo.gl/pj2Ckc8EckLuMDWW6'>Location:
-            <span className="pl-3 text-yellow-400 font-medium">Brooklyn Store: 2 Stanley Ave, Braamfontein Werf, Johannesburg, 2092</span>
+            <span className="pl-3 text-yellow-400 font-medium">LeefstylKameras 75 3rd Ave, Melville, Auckland Park, Johannesburg, 2092</span>
           </Link>
           </li>
         </ul>
