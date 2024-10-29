@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "Brooklyn Store",
-  url: "https://brooklynstore.co",
+  name: "LeefstylKameras",
+  url: "https://leefstylkameras.com",
   ogImage: "/favicon.ico",
   description:
-    "Brooklyn AutoParts: Your Ultimate Multi-AutoParts Wholesaler",
+    "LeefstylKameras: Your Ultimate Multi-Camera Wholesaler",
   links: {
-    twitter: "https://twitter.com/brooklyn-store",
-    github: "https://facebook.com/brooklyn-store",
+    twitter: "https://twitter.com/leefstylkameras",
+    github: "https://facebook.com/leefstylkameras",
   },
 }
 
