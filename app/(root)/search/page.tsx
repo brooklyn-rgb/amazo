@@ -63,7 +63,7 @@ export default async function SearchPage({
     price = 'all',
     rating = 'all',
     sort = 'newest',
-    page = '1',
+    page = '2',
   },
 }: {
   searchParams: {
