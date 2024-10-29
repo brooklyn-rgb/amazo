@@ -39,21 +39,21 @@ export default function Footer () {
                                 <ul className="widget-body">
                                     <li>
                                         <label>Phone: </label>
-                                        <Link href="tel:#">Toll Free (123) 456-7890</Link>
+                                        <Link href="tel:#">Toll Free (78) 151-5716</Link>
                                     </li>
                                     <li>
                                         <label>Email: </label>
-                                        <Link href="mailto:mail@brooklynstore.co.za">mail@brooklynstore.co.za</Link>
+                                        <Link href="mailto:mail@leefstylkameras.com">mail@leefstylkameras.com</Link>
                                     </li>
                                     <li>
                                         <label>Address: </label>
-                                        <Link href="#">123 Street Name, City, England</Link>
+                                        <Link href="#">75 3rd Avenue, Melville, Auckland Park</Link>
                                     </li>
                                     <li>
                                         <label>WORKING DAYS / HOURS: </label>
                                     </li>
                                     <li>
-                                        <Link href="#">Mon - Sun / 9:00 AM - 8:00 PM</Link>
+                                        <Link href="#">Mon - Fri / 8:00 AM - 4:00 PM</Link>
                                     </li>
                                 </ul>
                             </div>
