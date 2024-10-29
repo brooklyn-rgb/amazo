@@ -16,20 +16,20 @@ export default function RootLayout({
     <>
     <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>     
-    <meta property="og:url" content="https://brooklynstore.co.za/"/>
-    <meta property="og:title" content="Brooklyn Store"/>
-    <meta property="og:description" content="Discover Brooklyn Store's premier camera and photography store, offering a wide range of equipment, accessories, and expert advice. Visit us for top brands, professional service, and everything you need to capture life's moments with clarity and creativity" />
-    <meta property="og:site_name" content="Brooklyn Store"/>
-    <meta property="og:image" content="https://brooklynstore.co.za/search?q=&category=Canon&price=all&rating=all&sort=lowest&page=1"/>
-    <meta property="twitter:description" content="https://x.com/brooklynstore10"/>
+    <meta property="og:url" content="https://leefstylkameras.com/"/>
+    <meta property="og:title" content="LeefstylKameras"/>
+    <meta property="og:description" content="Discover LeefstylKameras premier camera and photography store, offering a wide range of equipment, accessories, and expert advice. Visit us for top brands, professional service, and everything you need to capture life's moments with clarity and creativity" />
+    <meta property="og:site_name" content="LeefstylKameras"/>
+    <meta property="og:image" content="https://leefstylkameras.com/search?q=&category=Canon&price=all&rating=all&sort=lowest&page=1"/>
+    <meta property="twitter:description" content="https://x.com/LeefstylKameras"/>
     <meta property="facebook:description" content="https://www.facebook.com/profile.php?id=61566551804302"/>
-    <meta property="instagram:description" content="https://www.instagram.com/brooklynstore10/"/>
-    <meta name="description" content="Discover Brooklyn Store's premier camera and photography store, offering a wide range of equipment, accessories, and expert advice. Visit us for top brands, professional service, and everything you need to capture life's moments with clarity and creativity"/>
+    <meta property="instagram:description" content="https://www.instagram.com/LeefstylKameras/"/>
+    <meta name="description" content="Discover LeefstylKamerass premier camera and photography store, offering a wide range of equipment, accessories, and expert advice. Visit us for top brands, professional service, and everything you need to capture life's moments with clarity and creativity"/>
       <meta charSet="utf-8"/>
    <meta name="google-site-verification" content="gJrTicPSMMeCxt6Tk_4ks1OPVITCp239OSiIpXGRR2g"/>
     <meta name="robots" content="index,follow"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <link href="https://brooklynstore.co.za/" rel="canonical"/>
+      <link href="https://leefstylkameras.com/" rel="canonical"/>
          <link rel="apple-touch-icon" href="/static/images/favicon.ico"/>
     <link rel="icon" href="/static/images/favicon.ico"/>
     <link rel="preconnect" href="//cdnjs.cloudflare.com"/>
