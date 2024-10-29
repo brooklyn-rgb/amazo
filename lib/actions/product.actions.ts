@@ -56,7 +56,7 @@ export async function getProductById(productId: string) {
 export async function getLatestProducts() {
   const data = await db.query.products.findMany({
     orderBy: [desc(products.createdAt)],
-    limit: 12,
+    limit: 16,
   })
   return data
 }
