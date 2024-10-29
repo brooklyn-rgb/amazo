@@ -8,16 +8,16 @@ import Link from 'next/link'
 const sortOrders = ['newest', 'lowest', 'highest', 'rating']
 const prices = [
   {
-    name: 'R1 to R100',
-    value: '1-100',
+    name: 'R1 to R1000',
+    value: '1-1000',
   },
   {
-    name: 'R101 to R200',
-    value: '101-200',
+    name: 'R1000 to R10000',
+    value: '1000-10000',
   },
   {
-    name: 'R201 to R1000',
-    value: '201-1000',
+    name: 'R10000 to R100000',
+    value: '10000-100000',
   },
 ]
 
