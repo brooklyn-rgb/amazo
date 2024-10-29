@@ -9,7 +9,7 @@ const BrooklynStore = () => {
       <div className="w-full">
         <p className="cursor-pointer font-bold text-lg sm:text-2xl">
           <Link href="/" passHref>
-            Brooklyn Store
+            LeefstylKameras
           </Link>
         </p>
 
