@@ -1,7 +1,7 @@
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'Brooklyn Store'
-export const APP_DESCRIPTION = 'Camera Store all your photograph gear supply in South Africa at Brooklyn Store'
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'LeefstylKameras'
+export const APP_DESCRIPTION = 'Camera Store all your photograph gear supply in South Africa at LeefstylKameras'
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
-  'Camera Store all your photograph gear supply in South Africa at Brooklyn Store'
+  'Camera Store all your photograph gear supply in South Africa at LeefstylKameras'
 
 export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'onboarding@resend.dev'
 
