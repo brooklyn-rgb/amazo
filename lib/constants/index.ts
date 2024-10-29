@@ -5,7 +5,7 @@ export const APP_DESCRIPTION = 'Camera Store all your photograph gear supply in 
 
 export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'onboarding@resend.dev'
 
-export const PAGE_SIZE = Number(process.env.PAGE_SIZE) || 3
+export const PAGE_SIZE = Number(process.env.PAGE_SIZE) || 16
 
 export const PAYMENT_METHODS = process.env.PAYMENT_METHODS
   ? process.env.PAYMENT_METHODS.split(', ')
